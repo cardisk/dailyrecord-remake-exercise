@@ -1,0 +1,30 @@
+.custom-navbar {
+    background-color: #ed002d;
+}
+
+.logo-container img.img-fluid {
+    max-height: 80px;
+    width: auto;
+}
+
+.height {
+    height: 50px;
+}
+
+@media (min-width: 768px) {
+    .height {
+        height: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .height {
+        height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .height {
+        height: 80px;
+    }
+}
