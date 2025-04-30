@@ -81,6 +81,20 @@
     height: 50px;
 }
 
+.main-article-divider {
+    background-color: #ed002d;
+    height: 5px;
+}
+
+.main-article-body {
+    background-color: rgb(39, 39, 39);
+}
+
+.bookmark-text {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .logo-container img.img-fluid {
         max-height: 60px;
