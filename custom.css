@@ -1,10 +1,53 @@
 .custom-navbar {
+    position: relative;
     background-color: #ed002d;
 }
 
+.burger-button {
+    display: inline;
+}
+
 .logo-container img.img-fluid {
-    max-height: 80px;
+    max-height: 50px;
     width: auto;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu-item-toggle {
+    display: none;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar-rhs {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.login-item {
+    height: 100%;
+}
+
+.login-container {
+    background-color: rgb(183, 0, 36);
+    transform: skew(-20deg);
+    height: 100%;
+}
+
+.login-content {
+    transform: skew(20deg);
 }
 
 .height {
@@ -12,18 +55,50 @@
 }
 
 @media (min-width: 768px) {
+    .logo-container img.img-fluid {
+        max-height: 60px;
+        width: auto;
+    }
+
     .height {
         height: 60px;
     }
 }
 
 @media (min-width: 992px) {
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-button {
+        display: none;
+    }
+
+    .logo-container img.img-fluid {
+        max-height: 70px;
+        width: auto;
+    }
+
     .height {
-        height: 60px;
+        height: 70px;
     }
 }
 
 @media (min-width: 1200px) {
+    .navbar-menu-item-toggle {
+        display: block;
+    }
+
+    .burger-button {
+        display: none;
+    }
+
+    .logo-container img.img-fluid {
+        max-height: 80px;
+        width: auto;
+    }
+
     .height {
         height: 80px;
     }
