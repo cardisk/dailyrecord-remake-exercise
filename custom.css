@@ -41,6 +41,19 @@
     height: 32px;
 }
 
+.follow-us {
+    font-weight: bold;
+    color: deeppink;
+}
+
+.twitter-x-container {
+    background-color: aqua;
+}
+
+.instagram-container {
+    background-color: deeppink;
+}
+
 .navbar-rhs {
     position: absolute;
     right: 0;

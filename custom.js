@@ -13,3 +13,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const secondaryNavbar = document.getElementById('secondaryNavbar');
+
+    const show = () => {
+        if (window.scrollY === 0) {
+            secondaryNavbar.classList.add('hidden');
+        } else {
+            secondaryNavbar.classList.remove('hidden');
+        }
+    }
+
+    show();
+
+    window.addEventListener('scroll', show);
+});
