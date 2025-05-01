@@ -90,6 +90,18 @@
     background-color: rgb(39, 39, 39);
 }
 
+.main-article-title {
+    font-size: 24px;
+}
+
+.main-article-text {
+    font-size: 18px;
+}
+
+.teaser-article {
+    font-size: 16px;
+}
+
 .bookmark-text {
     font-size: 12px;
     font-weight: bold;
@@ -103,6 +115,14 @@
 
     .navbar-primary-height {
         height: 60px;
+    }
+
+    .main-article-title {
+        font-size: 32px;
+    }
+
+    .main-article-text {
+        font-size: 20px;
     }
 }
 
@@ -147,5 +167,9 @@
 
     .navbar-primary-height {
         height: 80px;
+    }
+
+    .main-article-title {
+        font-size: 36px;
     }
 }
