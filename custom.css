@@ -99,7 +99,7 @@
     height: 5px;
 }
 
-.main-article-body {
+.big-article-body {
     background-color: rgb(39, 39, 39);
 }
 
@@ -118,6 +118,10 @@
 .bookmark-text {
     font-size: 12px;
     font-weight: bold;
+}
+
+.article-group-big-article-title {
+    font-size: 24px;
 }
 
 @media (min-width: 768px) {
