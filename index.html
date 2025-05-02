@@ -9,8 +9,15 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body>
+    <!-- NAVBAR PADDING -->
+    <header>
+        <div class="navbar-primary-height"></div>
+        <div class="navbar-secondary-height"></div>
+        <div class="navbar-secondary-height"></div>
+    </header>
+
     <!-- NAVBAR -->
-    <header class="container-xxl g-0">
+    <header class="container-xxl g-0 fixed-top" id="primaryNavbar">
         <!-- NAVBAR TOP -->
         <div class="row d-flex g-0 custom-navbar navbar-primary-height">
             <div class="d-flex align-items-center g-0 logo-container">
@@ -145,10 +152,10 @@
         </div>
 
         <!-- NAVBAR CENTER -->
-        <div class="row g-0 navbar-secondary-height"></div>
+        <div class="row g-0 bg-white navbar-secondary-height"></div>
 
         <!-- NAVBAR BOTTOM -->
-        <div class="row g-0 d-flex text-center border-bottom navbar-secondary-height">
+        <div class="row g-0 d-flex text-center border-bottom bg-white navbar-secondary-height">
             <ul class="list-inline overflow-auto text-nowrap font-monospace inline-scrollbar-wrapper">
                 <li class="list-inline-item px-2"><a class="navbar-link" href="#">BUY A PAPER</a></li>
                 <li class="list-inline-item px-2"><a class="navbar-link" href="#">ROAD RECORD</a></li>
@@ -167,7 +174,8 @@
 
     </header>
 
-    <header class="container-xxl g-0 fixed-top" id="secondaryNavbar">
+    <!-- SECONDARY NAVBAR -->
+    <header class="container-xxl g-0 bg-white fixed-top" id="secondaryNavbar">
         <!-- NAVBAR TOP -->
         <div class="row d-flex g-0 navbar-primary-height">
             <div class="d-flex align-items-center g-0 logo-container justify-content-between">

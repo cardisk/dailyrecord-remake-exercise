@@ -15,13 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    const primaryNavbar = document.getElementById('primaryNavbar');
     const secondaryNavbar = document.getElementById('secondaryNavbar');
 
     const show = () => {
-        if (window.scrollY === 0) {
-            secondaryNavbar.classList.add('hidden');
+        console.log(window.scrollY);
+        if (window.scrollY > 50) {
+            primaryNavbar.classList.add('d-none');
+            secondaryNavbar.classList.remove('d-none');
         } else {
-            secondaryNavbar.classList.remove('hidden');
+            primaryNavbar.classList.remove('d-none');
+            secondaryNavbar.classList.add('d-none');
         }
     }
 
