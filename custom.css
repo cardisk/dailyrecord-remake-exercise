@@ -94,7 +94,7 @@
     height: 50px;
 }
 
-.main-article-divider {
+.article-divider {
     background-color: #ed002d;
     height: 5px;
 }
@@ -122,6 +122,14 @@
 
 .article-group-big-article-title {
     font-size: 24px;
+}
+
+.small-article-text {
+    font-size: 13px;
+}
+
+.small-article-border-bottom {
+    border-bottom: 2px solid #dee2e6;
 }
 
 @media (min-width: 768px) {
