@@ -133,6 +133,17 @@
     background-color: #dee2e6;
 }
 
+.floating-topic {
+    position: relative;
+}
+
+.floating-topic {
+    position: absolute;
+
+    background-color: #ee002d;
+    transform: translate(calc(calc(100% - 3%) / 2), -13.5px);
+}
+
 @media (min-width: 768px) {
     .logo-container img.img-fluid {
         max-height: 60px;
