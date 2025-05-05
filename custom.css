@@ -164,6 +164,10 @@
     font-size: 18px;
 }
 
+.topic-title-font {
+    font-size: 32px;
+}
+
 @media (min-width: 768px) {
     .logo-container img.img-fluid {
         max-height: 60px;
