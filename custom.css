@@ -1,3 +1,7 @@
+* {
+    outline: solid transparent !important;
+}
+
 .custom-navbar {
     position: relative;
     background-color: #ed002d;
