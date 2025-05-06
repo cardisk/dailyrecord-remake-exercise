@@ -53,15 +53,15 @@
 
 .follow-us {
     font-weight: bold;
-    color: deeppink;
+    color: #ee002d;
 }
 
 .twitter-x-container {
-    background-color: aqua;
+    background-color: #39a9e0;
 }
 
 .instagram-container {
-    background-color: deeppink;
+    background-color: #d93174;
 }
 
 .navbar-rhs {
@@ -110,7 +110,11 @@
 }
 
 .big-article-body, .bg-article {
-    background-color: rgb(39, 39, 39);
+    background-color: #2c2c2c;
+}
+
+.bg-footer {
+    background-color: #141414;
 }
 
 .main-article-title {
