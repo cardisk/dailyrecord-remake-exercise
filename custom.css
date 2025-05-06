@@ -53,7 +53,7 @@
 
 .follow-us {
     font-weight: bold;
-    color: #ee002d;
+    color: #ed002d;
 }
 
 .twitter-x-container {
@@ -150,7 +150,7 @@
 .floating-topic {
     position: absolute;
 
-    background-color: #ee002d;
+    background-color: #ed002d;
     transform: translate(calc(calc(100% - 3%) / 2), -13.5px);
 }
 
@@ -195,6 +195,10 @@
 .footer-link-font:hover {
     color: white;
     font-weight: bold;
+}
+
+.color-secondary {
+    color: #979797;
 }
 
 @media (min-width: 768px) {
